@@ -1,0 +1,18 @@
+﻿@model Youtube_Entertainment_Project.DTOs.UserDto
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<h1>User Details</h1>
+
+<div>
+    <p><strong>Username:</strong> @Model.Username</p>
+    <p><strong>Display Name:</strong> @Model.DisplayName</p>
+    <p><strong>Verified:</strong> @Model.IsVerified</p>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.UserId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</p>

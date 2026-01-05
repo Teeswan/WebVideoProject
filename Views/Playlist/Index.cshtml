@@ -1,0 +1,138 @@
+﻿@model IEnumerable<Youtube_Entertainment_Project.DTOs.PlaylistDto>
+@using Microsoft.AspNetCore.Identity
+@using Youtube_Entertainment_Project.Data.Entity
+@inject UserManager<AppUser> UserManager
+@inject SignInManager<AppUser> SignInManager
+
+@{
+    ViewData["Title"] = "Playlists";
+    Guid currentUserId = Guid.Empty;
+    bool isSuperAdmin = false;
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        var currentUser = await UserManager.GetUserAsync(User);
+        if (currentUser != null)
+        {
+            currentUserId = currentUser.Id;
+            isSuperAdmin = await UserManager.IsInRoleAsync(currentUser, "SuperAdmin");
+        }
+    }
+}
+
+<style>
+    .playlist-card {
+        transition: transform 0.2s;
+        border: none;
+        background: transparent;
+    }
+
+        .playlist-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .thumbnail-container {
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        aspect-ratio: 16 / 9;
+        background-color: #f0f0f0;
+    }
+
+    .playlist-overlay {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        width: 35%;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .playlist-title {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        line-height: 1.2;
+    }
+
+    .owner-name {
+        font-size: 0.85rem;
+        color: #606060;
+    }
+
+    .btn-create-pill {
+        background-color: #f2f2f2;
+        border: none;
+        color: black;
+        font-weight: 500;
+        padding: 8px 16px;
+    }
+
+        .btn-create-pill:hover {
+            background-color: #e5e5e5;
+        }
+</style>
+
+<div class="container-fluid px-4 mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 class="fw-bold">Playlists</h4>
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <a asp-action="Create" class="btn btn-create-pill rounded-pill">
+                <i class="bi bi-plus-lg"></i> Create New
+            </a>
+        }
+    </div>
+
+    <div class="row g-4">
+        @foreach (var playlist in Model)
+        {
+            bool isOwner = playlist.OwnerUserId == currentUserId;
+            bool canManage = isOwner || isSuperAdmin;
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card playlist-card h-100">
+                    <a asp-action="Details" asp-route-id="@playlist.PlaylistId" class="text-decoration-none text-dark">
+                        <div class="thumbnail-container shadow-sm">
+                            <img src="/images/default-thumbnail.jpg" class="w-100 h-100 object-fit-cover" />
+
+                            <div class="playlist-overlay">
+                                <i class="bi bi-collection-play fs-4"></i>
+                                <span class="small fw-bold mt-1">Playlist</span>
+                            </div>
+                        </div>
+
+                        <div class="card-body p-0 pt-2">
+                            <h3 class="playlist-title">@playlist.Title</h3>
+                            <div class="owner-name mt-1">
+                                @if (!playlist.IsPublic)
+                                {
+                                    <i class="bi bi-lock-fill me-1" title="Private"></i>
+                                }
+                                Owner: User @playlist.OwnerUserId.ToString().Substring(0, 5)...
+                            </div>
+                            <p class="text-muted x-small">View full playlist</p>
+                        </div>
+                    </a>
+
+                    @if (canManage)
+                    {
+                        <div class="mt-auto pt-2 d-flex gap-2">
+                            <a asp-action="Edit" asp-route-id="@playlist.PlaylistId" class="text-warning text-decoration-none small">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@playlist.PlaylistId" class="text-danger text-decoration-none small">Delete</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>

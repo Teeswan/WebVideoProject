@@ -1,0 +1,21 @@
+﻿@model Youtube_Entertainment_Project.DTOs.UserDto
+
+@{
+    ViewData["Title"] = "Delete User";
+}
+
+<h1>Delete User</h1>
+
+<h3>Are you sure you want to delete this user?</h3>
+
+<div>
+    <p><strong>Username:</strong> @Model.Username</p>
+    <p><strong>Display Name:</strong> @Model.DisplayName</p>
+    <p><strong>Verified:</strong> @Model.IsVerified</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="UserId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

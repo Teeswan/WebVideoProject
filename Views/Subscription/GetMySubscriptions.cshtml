@@ -1,0 +1,155 @@
+﻿@model List<Youtube_Entertainment_Project.DTOs.SubscriptionDto>
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+
+@{
+    ViewData["Title"] = "Subscriptions";
+    var token = Antiforgery.GetAndStoreTokens(Context).RequestToken;
+}
+
+<style>
+    .channel-row {
+        transition: background-color 0.2s;
+        border-radius: 12px;
+        padding: 12px;
+    }
+
+        .channel-row:hover {
+            background-color: rgba(0,0,0,0.05);
+        }
+
+    .channel-avatar {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .btn-subscribed {
+        background-color: #f2f2f2;
+        color: #0f0f0f;
+        border: none;
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 6px 16px;
+        transition: background-color 0.2s;
+    }
+
+        .btn-subscribed:hover {
+            background-color: #e5e5e5;
+        }
+
+        .btn-subscribed.loading {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+    .subscription-header {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+</style>
+
+<div class="container mt-4" style="max-width: 800px;">
+    <h1 class="subscription-header">All Subscriptions</h1>
+
+    <div id="subscriptionContainer">
+        @if (Model == null || !Model.Any())
+        {
+            <div class="text-center py-5">
+                <i class="bi bi-people shadow-sm p-4 rounded-circle mb-3 d-inline-block" style="font-size: 3rem; background: #f8f9fa;"></i>
+                <h4 class="fw-bold">Don't miss a thing</h4>
+                <p class="text-muted">Subscribe to your favorite channels to see their latest videos here.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var sub in Model)
+            {
+                <div class="channel-row d-flex align-items-center justify-content-between mb-2" id="row-@sub.ChannelOwnerUserId">
+                    <div class="d-flex align-items-center">
+                        <a asp-controller="Channel" asp-action="Details" asp-route-id="@sub.ChannelId">
+                            <img src="@(string.IsNullOrEmpty(sub.ProfilePicture) ? "/images/default-profile.png" : sub.ProfilePicture)"
+                                 class="channel-avatar me-4"
+                                 alt="@sub.ChannelName"
+                                 style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%;"
+                                 onerror="this.src='/images/default-profile.png'">
+                        </a>
+                        <div>
+                            <a asp-controller="Channel" asp-action="Details" asp-route-id="@sub.ChannelId" class="text-decoration-none text-dark">
+                                <h5 class="mb-1 fw-bold">@sub.ChannelName</h5>
+                            </a>
+                            <p class="text-muted small mb-0">Subscribed since @sub.SubscribedAt.ToString("MMM dd, yyyy")</p>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-subscribed unsubscribe-btn"
+                                data-channel-id="@sub.ChannelOwnerUserId"
+                                data-channel-name="@sub.ChannelName">
+                            <i class="bi bi-bell me-2"></i>Subscribed
+                        </button>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const token = "@token";
+            const container = document.getElementById('subscriptionContainer');
+
+            container.addEventListener('click', async (event) => {
+                const button = event.target.closest('.unsubscribe-btn');
+                if (!button) return;
+
+                const channelId = button.dataset.channelId;
+                const channelName = button.dataset.channelName;
+
+                if (!confirm(`Unsubscribe from ${channelName}?`)) return;
+
+                button.disabled = true;
+                button.classList.add('loading');
+                button.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Wait...';
+
+                try {
+                    const formData = new FormData();
+                    formData.append('channelId', channelId);
+                    formData.append('__RequestVerificationToken', token);
+
+                    const response = await fetch('/api/Subscription/Toggle', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    if (response.ok) {
+                        const rowToRemove = document.getElementById(`row-${channelId}`);
+                        if (rowToRemove) {
+                            rowToRemove.style.opacity = '0';
+                            rowToRemove.style.transform = 'translateX(-20px)';
+                            rowToRemove.style.transition = 'all 0.3s ease';
+                            setTimeout(() => {
+                                rowToRemove.remove();
+                                if (container.querySelectorAll('.channel-row').length === 0) {
+                                    location.reload();
+                                }
+                            }, 300);
+                        }
+                    } else {
+                        alert("Error processing request.");
+                        button.disabled = false;
+                        button.classList.remove('loading');
+                        button.innerHTML = '<i class="bi bi-bell me-2"></i>Subscribed';
+                    }
+                } catch (error) {
+                    console.error("Error:", error);
+                    button.disabled = false;
+                    button.classList.remove('loading');
+                }
+            });
+        });
+    </script>
+}

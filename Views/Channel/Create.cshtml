@@ -1,0 +1,40 @@
+﻿@model Youtube_Entertainment_Project.DTOs.ChannelDto
+
+@{
+    ViewData["Title"] = "Create Channel";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h1 class="card-title text-center text-primary mb-4">📺 Create Your Channel</h1>
+        <hr />
+        <div class="card-body">
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="form-label fw-bold"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter channel name (e.g., 'Tech Reviews Central')" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <textarea asp-for="Description" class="form-control" rows="4" placeholder="Tell viewers what your channel is about..."></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button type="submit" class="btn btn-primary btn-lg"><i class="bi bi-send-fill"></i> Create Channel</button>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

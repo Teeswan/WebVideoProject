@@ -1,0 +1,40 @@
+﻿@model Youtube_Entertainment_Project.DTOs.PlaylistDto
+
+@{
+    ViewData["Title"] = "Edit Playlist: " + Model.Title;
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h1 class="card-title text-center text-info mb-4">✏️ Edit Playlist: @Model.Title</h1>
+        <hr />
+        <div class="card-body">
+            <form asp-action="Edit" method="post">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <input type="hidden" asp-for="PlaylistId" />
+                @* ➡️ FIX: Hide OwnerUserId as it cannot be changed *@
+                <input type="hidden" asp-for="OwnerUserId" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="Title" class="form-label fw-bold"></label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4 form-check form-switch">
+                    <input asp-for="IsPublic" class="form-check-input" type="checkbox" id="IsPublicSwitch">
+                    <label class="form-check-label fw-bold" for="IsPublicSwitch">
+                        @Html.DisplayNameFor(model => model.IsPublic)
+                        <small class="text-muted ms-2">(Uncheck to make private)</small>
+                    </label>
+                </div>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button type="submit" class="btn btn-primary btn-lg"><i class="bi bi-save-fill"></i> Save Changes</button>
+                    <a asp-action="Details" asp-route-id="@Model.PlaylistId" class="btn btn-secondary btn-lg">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

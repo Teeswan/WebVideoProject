@@ -1,0 +1,137 @@
+﻿@model IEnumerable<Youtube_Entertainment_Project.DTOs.NotificationDto>
+
+@{
+    ViewData["Title"] = "Notifications";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-7">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+                <div>
+                    <h2 class="fw-bold mb-0">Notifications</h2>
+                    <span class="text-muted small">@Model.Count(n => !n.IsRead) unread alerts</span>
+                </div>
+                <button class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+                    <i class="bi bi-gear-fill me-1"></i> Settings
+                </button>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="list-group list-group-flush">
+                    @if (!Model.Any())
+                    {
+                        <div class="text-center py-5">
+                            <div class="bg-light d-inline-flex p-4 rounded-circle mb-3">
+                                <i class="bi bi-bell-slash fs-1 text-muted"></i>
+                            </div>
+                            <h5 class="text-dark fw-bold">No notifications yet</h5>
+                            <p class="text-muted">When people interact with your content, you'll see it here.</p>
+                        </div>
+                    }
+                    else
+                    {
+                        @foreach (var notification in Model)
+                        {
+                            <div id="notif-@notification.NotificationId"
+                                 class="list-group-item list-group-item-action p-0 border-0 border-bottom d-flex align-items-center @(notification.IsRead ? "" : "bg-unread")">
+
+                                <a href="@Url.Action("Click", "Notifications", new { id = notification.NotificationId })"
+                                   class="d-flex align-items-start flex-grow-1 p-3 text-decoration-none">
+
+                                    <img src="@(string.IsNullOrEmpty(notification.ActorProfileImage) ? "/images/default-profile.png" : notification.ActorProfileImage)"
+                                         class="rounded-circle me-3 shadow-sm"
+                                         style="width: 52px; height: 52px; object-fit: cover;"
+                                         onerror="this.src='/images/default-profile.png'" />
+
+                                    <div class="flex-grow-1">
+                                        <p class="mb-1 text-dark lh-sm">
+                                            @notification.Message
+                                        </p>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="text-muted x-small">
+                                                <i class="bi bi-clock me-1"></i>@GetTimeAgo(notification.CreatedAt)
+                                            </span>
+                                            @if (!notification.IsRead)
+                                            {
+                                                <span class="badge bg-primary rounded-pill p-1" style="font-size: 0.5rem;">&nbsp;</span>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    @if (!string.IsNullOrEmpty(notification.VideoThumbnail))
+                                    {
+                                        <div class="ms-3">
+                                            <img src="@notification.VideoThumbnail"
+                                                 class="rounded-2"
+                                                 style="width: 100px; height: 56px; object-fit: cover;"
+                                                 onerror="this.src='/images/default-thumbnail.jpg'" />
+                                        </div>
+                                    }
+                                </a>
+
+                                <div class="pe-3">
+                                    <button onclick="deleteNotification('@notification.NotificationId')"
+                                            class="btn btn-light btn-sm rounded-circle shadow-sm delete-btn"
+                                            style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"
+                                            title="Delete">
+                                        <i class="bi bi-x-lg text-danger small"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bg-unread {
+        background-color: rgba(13, 110, 253, 0.04);
+        border-left: 3px solid #0d6efd !important;
+    }
+
+    .x-small {
+        font-size: 0.75rem;
+    }
+
+    .list-group-item:hover {
+        background-color: #f8f9fa !important;
+        transition: 0.2s;
+
+    }
+
+    .delete-btn {
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .list-group-item:hover .delete-btn {
+        opacity: 1;
+    }
+
+    .bg-unread {
+        background-color: rgba(13, 110, 253, 0.04);
+        border-left: 3px solid #0d6efd !important;
+    }
+
+    .fade-out {
+        opacity: 0;
+        transform: translateX(30px);
+        transition: all 0.3s ease;
+</style>
+
+@functions {
+    public string GetTimeAgo(DateTime dateTime)
+    {
+        var span = DateTime.UtcNow - dateTime;
+        if (span.TotalDays > 365) return $"{(int)(span.TotalDays / 365)} years ago";
+        if (span.TotalDays > 30) return $"{(int)(span.TotalDays / 30)} months ago";
+        if (span.TotalDays > 1) return $"{(int)span.TotalDays} days ago";
+        if (span.TotalHours > 1) return $"{(int)span.TotalHours} hours ago";
+        if (span.TotalMinutes > 1) return $"{(int)span.TotalMinutes} minutes ago";
+        return "Just now";
+    }
+}

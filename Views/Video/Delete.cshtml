@@ -1,0 +1,38 @@
+﻿@model Youtube_Entertainment_Project.DTOs.VideoDto
+
+@{
+    ViewData["Title"] = "Delete Video";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 border-danger">
+        <h1 class="card-title text-center text-danger mb-4">⚠️ Confirm Delete Video</h1>
+        <hr />
+
+        <div class="alert alert-warning text-center fw-bold">
+            <h3>Are you sure you want to permanently delete the video: <strong>@Model.Title</strong>?</h3>
+            <p class="text-danger">This action cannot be undone. All comments and data associated with this video will be lost.</p>
+        </div>
+
+        <dl class="row mt-4">
+            <dt class="col-sm-3">Video Title:</dt>
+            <dd class="col-sm-9">@Model.Title</dd>
+
+            <dt class="col-sm-3">Channel:</dt>
+            <dd class="col-sm-9">@Model.ChannelName</dd>
+
+            <dt class="col-sm-3">Current Views:</dt>
+            <dd class="col-sm-9">@Model.ViewCount</dd>
+        </dl>
+
+        <div class="mt-4 text-center">
+            <form asp-action="Delete" asp-route-id="@Model.VideoId" method="post" class="d-inline">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-danger btn-lg me-2">
+                    <i class="bi bi-trash-fill"></i> Permanently Delete
+                </button>
+            </form>
+            <a asp-action="Details" asp-route-id="@Model.VideoId" class="btn btn-secondary btn-lg">Cancel</a>
+        </div>
+    </div>
+</div>

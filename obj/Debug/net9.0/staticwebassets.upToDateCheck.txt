@@ -1,0 +1,169 @@
+wwwroot\css\navbar.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\Images\default-thumbnail.jpg
+wwwroot\Images\user_avatar_def.jpg
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\thumbnails\0dcde036-c2aa-43bc-a089-cbde1f5cefd3.png
+wwwroot\thumbnails\4d54174d-0907-4ca8-aa2c-ddf281d5fffe.png
+wwwroot\thumbnails\6fae1afb-2566-4eb1-a906-f5da8d2db33e.jpg
+wwwroot\thumbnails\9563491b-5bb4-405c-8c4d-c0548fd94bb6.jpg
+wwwroot\thumbnails\9a336135-c4fb-482a-b4f4-0b608accd188.png
+wwwroot\thumbnails\d1eb4d50-594e-4ebb-9001-a291622737f0.png
+wwwroot\thumbnails\e4acc8e1-6e4f-4814-a879-efeaad1b7fe4.jpg
+wwwroot\thumbnails\e59770e3-475b-4706-a518-dc8067427ea6.jpg
+wwwroot\thumbnails\ffcb194a-aed4-462e-9dca-ae3289e88088.png
+wwwroot\uploads\users\0923d77f-b216-43c7-9e90-f728fa2a3332.png
+wwwroot\uploads\users\29d58ab8-6a55-4934-b17f-4c6c54673ab2.png
+wwwroot\uploads\users\6cee8df2-4fad-48ff-8728-eba10a0b058c.png
+wwwroot\uploads\users\71cab2d8-c4f3-4efb-96f0-b165ec25f7ec.jpg
+wwwroot\uploads\users\71e5bcc0-3183-4bb8-be77-72d1b800807e.jpg
+wwwroot\uploads\users\778a018a-1790-441e-ba02-40500f1df12c.png
+wwwroot\uploads\users\7d438086-b648-47f3-87fd-6217bc70b616.png
+wwwroot\uploads\users\a47b9267-f2c9-4cb6-b13d-9184091634f8.jpg
+wwwroot\uploads\users\c0e0c164-cf15-48f5-8e1e-6cd4711d5243.jpg
+wwwroot\videos\11f7d256-37a4-4fc6-849b-630ba2a8576a.mp4
+wwwroot\videos\33d1dd73-d3cf-4458-b4be-888dbc137df6.mp4
+wwwroot\videos\33e801e4-3e19-4fcf-b940-0c264a7e02cd.mp4
+wwwroot\videos\381d82b9-1cb1-4da5-a904-4bd7e47f41ff.mp4
+wwwroot\videos\38467064-1a58-4ec2-b817-a68a0d29fe21.mp4
+wwwroot\videos\3c722e64-b6e6-41f0-8b67-9fbb7d98b675.mp4
+wwwroot\videos\51e6379d-7c94-46b9-8deb-66bfc4fb9e5c.mp4
+wwwroot\videos\6759941a-528c-4f5d-85de-b6903372d362.mp4
+wwwroot\videos\82f8fc17-0104-44b4-b142-3b57a670ae4f.mp4
+wwwroot\videos\8f507269-723f-49c7-affc-260d148f368c.mp4
+wwwroot\videos\9513f8c4-41bd-4452-87bb-c1d5adc351e1.mp4
+wwwroot\videos\97f7d2d1-dc5c-40b6-9bdb-3f4b1d619442.mp4
+wwwroot\videos\a7addd97-92db-4b9f-b5c1-84e245741bb1.mp4
+wwwroot\videos\a8471a89-82e6-414e-af8b-bebfcafca989.mp4
+wwwroot\videos\b1e514b4-c8e2-4d4f-abf4-ef2c31132a8f.mp4
+wwwroot\videos\b55fad40-3c2e-444e-8275-3ef7c7e5d745.mp4
+wwwroot\videos\c0c73ed4-917d-45d2-a18c-d8591bf04657.mp4
+wwwroot\videos\ddd94dfd-818b-4a84-9d18-a6c678fba7bf.mp4
+wwwroot\videos\df6e99b6-c9be-40ee-834a-b4a6a6df4693.mp4
+wwwroot\videos\f3ff068c-c7e1-4be3-b532-b7603ebba149.mp4
+wwwroot\videos\f57a0f82-b3b4-442e-96c5-a3fad34b382d.mp4
+wwwroot\videos\f7731dce-7105-4017-863b-4f16302f4460.mp4
+C:\Riso_3\Youtube Entertainment Project\wwwroot\css\navbar.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\css\site.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\favicon.ico
+C:\Riso_3\Youtube Entertainment Project\wwwroot\js\site.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery\dist\jquery.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Riso_3\Youtube Entertainment Project\wwwroot\lib\jquery\LICENSE.txt

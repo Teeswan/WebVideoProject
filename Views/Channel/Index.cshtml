@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Youtube_Entertainment_Project.DTOs.ChannelDto>
+@using Microsoft.AspNetCore.Identity
+@using Youtube_Entertainment_Project.Data.Entity
+@inject UserManager<AppUser> UserManager
+@inject SignInManager<AppUser> SignInManager
+
+@{
+    ViewData["Title"] = "All Channels";
+    Guid currentUserId = Guid.Empty;
+    bool isSuperAdmin = false;
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        var currentUser = await UserManager.GetUserAsync(User);
+        if (currentUser != null)
+        {
+            currentUserId = currentUser.Id;
+            isSuperAdmin = await UserManager.IsInRoleAsync(currentUser, "SuperAdmin");
+        }
+    }
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">All Channels</h1>
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        // Only allow logged-in users to attempt to create a channel
+        <p>
+            <a asp-action="Create" class="btn btn-primary btn-lg">
+                <i class="bi bi-plus-circle-fill"></i> Create New Channel
+            </a>
+        </p>
+    }
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover shadow-sm">
+            <thead class="bg-dark text-white">
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Created At</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var channel in Model)
+                {
+                    bool isOwner = channel.OwnerUserId == currentUserId;
+
+                    <tr class="@(isOwner ? "table-info" : "")">
+                        <td>@channel.Name</td>
+                        <td>@channel.Description</td>
+                        <td>@(channel.CreatedAt.HasValue? channel.CreatedAt.Value.ToShortDateString() : "N/A")</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@channel.ChannelId" class="btn btn-sm btn-success me-1">Details</a>
+
+                            @if (isOwner || isSuperAdmin)
+                            {
+                                // Show Edit/Delete only to the owner OR SuperAdmin
+                                <a asp-action="Edit" asp-route-id="@channel.ChannelId" class="btn btn-sm btn-warning me-1">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@channel.ChannelId" class="btn btn-sm btn-danger">Delete</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

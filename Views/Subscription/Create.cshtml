@@ -1,0 +1,26 @@
+﻿@model Youtube_Entertainment_Project.DTOs.SubscriptionDto
+
+@{
+    ViewData["Title"] = "Create Subscription";
+}
+
+<h1>Create Subscription</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="SubscriberUserId"></label>
+        <input asp-for="SubscriberUserId" class="form-control" />
+        <span asp-validation-for="SubscriberUserId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ChannelOwnerUserId">Channel Owner User ID</label>
+
+        <input asp-for="ChannelOwnerUserId" class="form-control" />
+
+        <span asp-validation-for="ChannelOwnerUserId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Subscribe</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

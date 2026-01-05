@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Youtube_Entertainment_Project.DTOs.NotificationDto>
+
+@if (!Model.Any())
+{
+    <div class="dropdown-item text-center text-muted small py-3">
+        No new notifications
+    </div>
+}
+else
+{
+    @foreach (var item in Model)
+    {
+        <a href="@Url.Action("Click", "Notifications", new { id = item.NotificationId })"
+           class="dropdown-item p-2 border-bottom @(item.IsRead ? "" : "bg-light")">
+            <div class="d-flex align-items-center">
+                <img src="@(item.ActorProfileImage ?? "/images/default-profile.png")"
+                     class="rounded-circle me-2"
+                     style="width: 32px; height: 32px; object-fit: cover;"
+                     onerror="this.src='/images/default-profile.png'">
+
+                <div class="flex-grow-1 overflow-hidden">
+                    <p class="mb-0 small text-wrap" style="line-height: 1.2; max-width: 220px;">
+                        @item.Message
+                    </p>
+                    <span class="text-muted" style="font-size: 0.7rem;">
+                        @item.CreatedAt.ToShortDateString()
+                    </span>
+                </div>
+
+                @if (!item.IsRead)
+                {
+                    <div class="ms-1">
+                        <span class="badge rounded-circle bg-primary p-1" style="font-size: 0.4rem;">&nbsp;</span>
+                    </div>
+                }
+            </div>
+        </a>
+    }
+}

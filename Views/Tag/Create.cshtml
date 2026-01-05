@@ -1,0 +1,18 @@
+﻿@model Youtube_Entertainment_Project.DTOs.TagDto
+
+@{
+    ViewData["Title"] = "Create Tag";
+}
+
+<h1>Create Tag</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Text"></label>
+        <input asp-for="Text" class="form-control" />
+        <span asp-validation-for="Text" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

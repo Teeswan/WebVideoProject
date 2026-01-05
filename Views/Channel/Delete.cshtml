@@ -1,0 +1,38 @@
+﻿@model Youtube_Entertainment_Project.DTOs.ChannelDto
+
+@{
+    ViewData["Title"] = "Delete Channel";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 border-danger">
+        <h1 class="card-title text-center text-danger mb-4">⚠️ Delete Channel</h1>
+        <hr />
+
+        <div class="alert alert-warning text-center fw-bold">
+            <h3>Are you absolutely sure you want to delete the channel <strong>@Model.Name</strong>?</h3>
+            <p>This action cannot be undone.</p>
+        </div>
+
+        <dl class="row mt-4">
+            <dt class="col-sm-3">Channel Name:</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            <dt class="col-sm-3">Description:</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+
+            <dt class="col-sm-3">Owner User ID:</dt>
+            <dd class="col-sm-9 text-muted">@Model.OwnerUserId</dd>
+        </dl>
+
+        <div class="mt-4 text-center">
+            <form asp-controller="Channel" asp-action="Delete" method="post" class="d-inline">
+                <input type="hidden" name="id" value="@Model.ChannelId" />
+                <button type="submit" class="btn btn-danger btn-lg me-2">
+                    <i class="bi bi-trash-fill"></i> Confirm Delete
+                </button>
+            </form>
+            <a asp-action="Details" asp-route-id="@Model.ChannelId" class="btn btn-secondary btn-lg">Cancel</a>
+        </div>
+    </div>
+</div>

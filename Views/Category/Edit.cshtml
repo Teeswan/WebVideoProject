@@ -1,0 +1,39 @@
+﻿@model Youtube_Entertainment_Project.DTOs.CategoryDto
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Edit Category: " + Model.Name;
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h1 class="card-title text-center text-info mb-4">✏️ Edit Category: @Model.Name</h1>
+        <hr />
+        <div class="card-body">
+            <form asp-action="Edit" method="post">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <input type="hidden" asp-for="CategoryId" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="form-label fw-bold"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="ParentCategoryId" class="form-label fw-bold">Parent Category</label>
+                    <select asp-for="ParentCategoryId" class="form-control" asp-items="@(ViewBag.Categories as SelectList)">
+                        <option value="">-- None (Top Level) --</option>
+                    </select>
+                    <small class="form-text text-danger">Note: Cannot set a category as its own parent.</small>
+                </div>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button type="submit" class="btn btn-primary btn-lg"><i class="bi bi-save-fill"></i> Save Changes</button>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

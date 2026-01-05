@@ -1,0 +1,383 @@
+﻿@model Youtube_Entertainment_Project.DTOs.VideoDto
+@using Youtube_Entertainment_Project.DTOs
+@using Microsoft.AspNetCore.Identity
+@using Youtube_Entertainment_Project.Data.Entity
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@inject UserManager<AppUser> UserManager
+@inject SignInManager<AppUser> SignInManager
+@Html.AntiForgeryToken()
+
+@{
+    ViewData["Title"] = Model.Title;
+    var comments = ViewBag.Comments as List<CommentDto>;
+    var token = Antiforgery.GetAndStoreTokens(Context).RequestToken;
+
+    bool canManage = false;
+    Guid currentUserIdGuid = Guid.Empty;
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        var currentUser = await UserManager.GetUserAsync(User);
+        if (currentUser != null)
+        {
+            currentUserIdGuid = currentUser.Id;
+            bool isOwner = Model.ChannelOwnerUserId == currentUserIdGuid;
+            bool isSuperAdmin = await UserManager.IsInRoleAsync(currentUser, "SuperAdmin");
+            canManage = isOwner || isSuperAdmin;
+        }
+    }
+}
+
+<style>
+    .opacity-75 {
+        opacity: 0.75;
+        transition: opacity 0.2s;
+    }
+
+    .hover-opacity-100:hover {
+        opacity: 1;
+    }
+
+    .col-lg-4 {
+        position: sticky;
+        top: 20px;
+        height: fit-content;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-8">
+
+            @if (!string.IsNullOrEmpty(Model.FilePath))
+            {
+                <div class="video-container mb-3 shadow-lg rounded bg-black overflow-hidden">
+                    <video id="videoPlayer" class="w-100" controls
+                           poster="@(string.IsNullOrEmpty(Model.ThumbnailUrl) ? "/images/default-thumbnail.jpg" : Model.ThumbnailUrl)">
+                        <source src="@Url.Content(Model.FilePath!)" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-danger">Video file not found or path is invalid.</div>
+            }
+
+            <h1 class="mb-2 h4 fw-bold">@Model.Title</h1>
+
+            <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-3">
+                <div class="d-flex align-items-center">
+                    <div class="me-3">
+                        @{
+                            var profilePic = string.IsNullOrEmpty(Model.ChannelOwnerProfileImage)
+                            ? "/images/default-profile.png"
+                            : Model.ChannelOwnerProfileImage;
+
+                            if (!profilePic.StartsWith("/") && !profilePic.StartsWith("http")) profilePic = "/" + profilePic;
+                        }
+
+                        <a asp-controller="Channel" asp-action="Details" asp-route-id="@Model.ChannelId">
+                            <img src="@profilePic"
+                                 class="rounded-circle shadow-sm"
+                                 style="width: 48px; height: 48px; object-fit: cover; border: 1px solid #dee2e6;"
+                                 alt="@Model.ChannelName's profile picture">
+                        </a>
+                    </div>
+                    <div>
+                        <p class="h6 mb-0 fw-bold">@Model.ChannelName</p>
+                        <span id="subscriberCount" class="small text-muted">@Model.SubscriberCount subscribers</span>
+                    </div>
+
+                    @if (SignInManager.IsSignedIn(User) && Model.ChannelOwnerUserId != currentUserIdGuid)
+                    {
+                        <button type="button" id="subscribeBtn"
+                                class="btn btn-sm ms-3 rounded-pill px-3 @(Model.IsSubscribedByCurrentUser ? "btn-secondary" : "btn-danger")"
+                                data-channel-id="@Model.ChannelOwnerUserId">
+                            @(Model.IsSubscribedByCurrentUser ? "Subscribed" : "Subscribe")
+                        </button>
+                    }
+                </div>
+
+                <div class="d-flex align-items-center">
+                    @* Like Button *@
+                    @if (User.Identity!.IsAuthenticated)
+                    {
+                        <div class="btn-group rounded-pill overflow-hidden bg-light me-2 border">
+                            <button id="likeBtn" class="btn btn-light border-0 py-2 px-3 @(Model.IsLikedByCurrentUser ? "text-primary" : "")">
+                                <i class="bi @(Model.IsLikedByCurrentUser ? "bi-hand-thumbs-up-fill" : "bi-hand-thumbs-up")"></i>
+                                <span class="ms-1 fw-bold" id="likeCount">@Model.LikeCount</span>
+                            </button>
+                        </div>
+
+                        <button type="button" class="btn btn-light rounded-pill border me-2" data-bs-toggle="modal" data-bs-target="#saveToPlaylistModal">
+                            <i class="bi bi-plus-square"></i> Save
+                        </button>
+                    }
+
+                    @if (canManage)
+                    {
+                        <a asp-action="Edit" asp-route-id="@Model.VideoId" class="btn btn-outline-warning btn-sm rounded-pill me-1">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@Model.VideoId" class="btn btn-outline-danger btn-sm rounded-pill">Delete</a>
+                    }
+                </div>
+            </div>
+
+            <div class="card border-0 bg-light p-3 mb-4 rounded-3">
+                <p class="fw-bold small mb-1">@Model.ViewCount views • @Model.CreatedAt.ToString("MMM dd, yyyy")</p>
+                <p class="mb-0">@Model.Description</p>
+            </div>
+
+            <h5 class="mb-4">@Model.CommentCount Comments</h5>
+            @if (User.Identity!.IsAuthenticated)
+            {
+                <form asp-action="AddComment" method="post" class="mb-4">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="videoId" value="@Model.VideoId" />
+                    <textarea class="form-control mb-2" name="content" rows="2" placeholder="Add a comment..." required></textarea>
+                    <button type="submit" class="btn btn-primary btn-sm rounded-pill px-3">Comment</button>
+                </form>
+            }
+
+            <div id="commentContainer">
+                @if (comments != null && comments.Any())
+                {
+                    @await Html.PartialAsync("_CommentThread", comments)
+                }
+                else
+                {
+                    <p class="text-muted">No comments yet.</p>
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <h6 class="fw-bold mb-3 text-uppercase small text-secondary" style="letter-spacing: 1px;">Up Next</h6>
+            <div id="relatedVideosContainer">
+                @{
+                    var related = ViewBag.RelatedVideos as List<VideoDto>;
+                }
+                @if (related != null && related.Any())
+                {
+                    @foreach (var item in related)
+                    {
+                        <div class="d-flex mb-3 gap-2 align-items-start">
+                            <a asp-action="Details" asp-route-id="@item.VideoId" class="flex-shrink-0" style="width: 160px;">
+                                <img src="@(string.IsNullOrEmpty(item.ThumbnailUrl) ? "/images/default-thumbnail.jpg" : item.ThumbnailUrl)"
+                                     class="img-fluid rounded"
+                                     style="aspect-ratio: 16/9; object-fit: cover;"
+                                     alt="@item.Title">
+                            </a>
+                            <div class="flex-grow-1 overflow-hidden">
+                                <a asp-action="Details" asp-route-id="@item.VideoId" class="text-decoration-none text-dark">
+                                    <h6 class="mb-0 small fw-bold" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.2;">
+                                        @item.Title
+                                    </h6>
+                                </a>
+                                <p class="mb-0 mt-1 text-muted" style="font-size: 0.75rem;">@item.ChannelName</p>
+                                <p class="mb-0 text-muted" style="font-size: 0.75rem;">
+                                    @item.ViewCount views • @item.CreatedAt.ToString("MMM dd")
+                                </p>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+
+            <hr class="my-4 text-muted">
+
+            <h6 class="fw-bold mb-3 text-uppercase small text-secondary" style="letter-spacing: 1px;">Discover More</h6>
+            <div id="discoverVideosContainer">
+                @{
+                    var discover = ViewBag.DiscoverVideos as List<VideoDto>;
+                }
+                @if (discover != null && discover.Any())
+                {
+                    @foreach (var item in discover)
+                    {
+                        <div class="d-flex mb-3 gap-2 align-items-start opacity-75 hover-opacity-100">
+                            <a asp-action="Details" asp-route-id="@item.VideoId" class="flex-shrink-0" style="width: 120px;">
+                                <img src="@(string.IsNullOrEmpty(item.ThumbnailUrl) ? "/images/default-thumbnail.jpg" : item.ThumbnailUrl)"
+                                     class="img-fluid rounded" style="aspect-ratio: 16/9; object-fit: cover;">
+                            </a>
+                            <div class="flex-grow-1 overflow-hidden">
+                                <a asp-action="Details" asp-route-id="@item.VideoId" class="text-decoration-none text-dark">
+                                    <h6 class="mb-0 fw-bold" style="font-size: 0.85rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                        @item.Title
+                                    </h6>
+                                </a>
+                                <p class="mb-0 mt-1 text-muted" style="font-size: 0.7rem;">@item.ChannelName</p>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted small">Keep watching to see more recommendations!</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@* SAVE TO PLAYLIST MODAL *@
+<div class="modal fade" id="saveToPlaylistModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header border-0 pb-0">
+                <h6 class="modal-title">Save to...</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="playlistModalBody">
+                <div class="text-center"><div class="spinner-border spinner-border-sm" role="status"></div></div>
+            </div>
+            <div class="modal-footer border-0">
+                <a asp-controller="Playlist" asp-action="Create" class="btn btn-link btn-sm text-decoration-none w-100">
+                    <i class="bi bi-plus"></i> Create new playlist
+                </a>
+            </div>
+            @if (Model.Visibility.ToLower() == "private")
+            {
+                <div class="alert alert-warning d-flex align-items-center" role="alert">
+                    <i class="bi bi-lock-fill me-2"></i>
+                    <div>
+                        <strong>Private Video:</strong> Only you and other administrators can see this page.
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const videoElement = document.querySelector("#videoPlayer");
+        const videoId = "@Model.VideoId";
+        const token = "@token";
+
+        // 1. View Increment (Updated to 1/3 Duration)
+        let viewed = false;
+        if (videoElement) {
+            videoElement.addEventListener("timeupdate", () => {
+                const threshold = videoElement.duration / 3;
+
+                if (!viewed && !isNaN(threshold) && videoElement.currentTime >= threshold) {
+                    viewed = true;
+
+                    fetch("/Video/IncrementView", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "RequestVerificationToken": token
+                        },
+                        body: JSON.stringify({ videoId: videoId })
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log("View recorded. New count: " + data.newViewCount);
+                    })
+                    .catch(err => console.error("Error updating views:", err));
+                }
+            });
+        }
+
+        // 2. Like Toggle
+        const likeBtn = document.querySelector("#likeBtn");
+        if (likeBtn) {
+            likeBtn.addEventListener("click", () => {
+                fetch("/Video/ToggleLike", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json", "RequestVerificationToken": token },
+                    body: JSON.stringify({ videoId: videoId })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    document.querySelector("#likeCount").textContent = data.likeCount;
+                    likeBtn.classList.toggle('text-primary', data.liked);
+                    likeBtn.querySelector('i').className = data.liked ? 'bi bi-hand-thumbs-up-fill' : 'bi bi-hand-thumbs-up';
+                });
+            });
+        }
+
+                        // 3. Subscribe Toggle
+        const subscribeBtn = document.querySelector("#subscribeBtn");
+
+        if (subscribeBtn) {
+            subscribeBtn.addEventListener("click", () => {
+                const ownerId = subscribeBtn.getAttribute("data-channel-id");
+
+                const formData = new FormData();
+                formData.append('channelId', ownerId); 
+                formData.append('__RequestVerificationToken', token);
+
+                fetch(`/api/Subscription/Toggle`, {
+                    method: "POST",
+                    body: formData,
+                })
+                .then(res => {
+                    if (res.status === 401) {
+                        alert("Please log in to subscribe.");
+                        return;
+                    }
+                    return res.json();
+                })
+                .then(data => {
+                    if (data && data.isSubscribed !== undefined) {
+                        subscribeBtn.textContent = data.isSubscribed ? "Subscribed" : "Subscribe";
+                        subscribeBtn.classList.toggle("btn-secondary", data.isSubscribed);
+                        subscribeBtn.classList.toggle("btn-danger", !data.isSubscribed);
+
+                        const countEl = document.querySelector("#subscriberCount");
+                        if (countEl) countEl.textContent = data.subscriberCount + " subscribers";
+                    }
+                })
+                .catch(err => console.error("Subscription Error:", err));
+            });
+        }
+
+        // 4. Playlist Modal Loading
+        const playlistModal = document.getElementById('saveToPlaylistModal');
+        playlistModal.addEventListener('show.bs.modal', function () {
+            const body = document.getElementById('playlistModalBody');
+            fetch('/Playlist/GetUserPlaylists')
+                .then(res => res.json())
+                .then(data => {
+                    body.innerHTML = '';
+                    if (data.length === 0) {
+                        body.innerHTML = '<p class="small text-muted p-2 text-center">No playlists found.</p>';
+                    } else {
+                        data.forEach(p => {
+                            const div = document.createElement('div');
+                            div.className = 'form-check mb-2';
+                            div.innerHTML = `
+                                <input class="form-check-input playlist-chk" type="checkbox" value="${p.playlistId}" id="p-${p.playlistId}">
+                                <label class="form-check-label small" for="p-${p.playlistId}">${p.title}</label>`;
+                            body.appendChild(div);
+                        });
+                    }
+                });
+        });
+
+        // 5. Add to Playlist
+        document.addEventListener('change', function(e) {
+            if (e.target.classList.contains('playlist-chk') && e.target.checked) {
+                const playlistId = e.target.value;
+                const formData = new FormData();
+                formData.append('playlistId', playlistId);
+                formData.append('videoId', videoId);
+                formData.append('__RequestVerificationToken', token);
+
+                fetch('/Playlist/AddVideo', { method: 'POST', body: formData })
+                .then(res => res.json())
+                .then(data => {
+                    if (!data.success) {
+                        alert(data.message);
+                        e.target.checked = false;
+                    } else {
+                        e.target.disabled = true;
+                    }
+                });
+            }
+        });
+    </script>
+}

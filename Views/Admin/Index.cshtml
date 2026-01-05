@@ -1,0 +1,227 @@
+﻿@model Youtube_Entertainment_Project.DTOs.AdminDashboardDto
+
+@{
+    ViewData["Title"] = "Creator Dashboard";
+}
+
+<div class="container-fluid px-4">
+    <div class="d-flex justify-content-between align-items-center mt-4">
+        <h1><i class="bi bi-speedometer2 me-2"></i>Creator Studio</h1>
+        <a asp-controller="Video" asp-action="Upload" class="btn btn-danger rounded-pill px-4">
+            <i class="bi bi-plus-lg me-1"></i> UPLOAD VIDEO
+        </a>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm bg-info text-white mb-3">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p class="mb-1 opacity-75">Total Views</p>
+                            <h3 class="mb-0 fw-bold">@Model.TotalViews.ToString("N0")</h3>
+                        </div>
+                        <i class="bi bi-eye fs-1 opacity-25"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm bg-danger text-white mb-3">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p class="mb-1 opacity-75">Total Likes</p>
+                            <h3 class="mb-0 fw-bold">@Model.TotalLikes.ToString("N0")</h3>
+                        </div>
+                        <i class="bi bi-heart fs-1 opacity-25"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm bg-success text-white mb-3">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p class="mb-1 opacity-75">Your Videos</p>
+                            <h3 class="mb-0 fw-bold">@Model.TotalVideos</h3>
+                        </div>
+                        <i class="bi bi-play-btn fs-1 opacity-25"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm bg-primary text-white mb-3">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p class="mb-1 opacity-75">Platform Users</p>
+                            <h3 class="mb-0 fw-bold">@Model.TotalUsers</h3>
+                        </div>
+                        <i class="bi bi-people fs-1 opacity-25"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0 mt-4">
+        <div class="card-header bg-white py-3 d-flex align-items-center justify-content-between">
+            <h5 class="mb-0 fw-bold text-dark">Your Content</h5>
+            <div class="col-md-4">
+                <div class="input-group input-group-sm">
+                    <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
+                    <input type="text" id="dashboardSearch" class="form-control border-start-0 ps-0" placeholder="Search video titles...">
+                </div>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0" id="videoTable">
+                <thead class="bg-light">
+                    <tr>
+                        <th class="ps-4">Video</th>
+                        <th>Views</th>
+                        <th>Likes</th>
+                        <th>Date Uploaded</th>
+                        <th class="text-end pe-4">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var video in Model.RecentVideos)
+                    {
+                        <tr>
+                            <td class="ps-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="position-relative me-3">
+                                        <img src="@(string.IsNullOrEmpty(video.ThumbnailUrl) ? "/images/default-thumb.jpg" : video.ThumbnailUrl)"
+                                             class="rounded" style="width: 100px; aspect-ratio: 16/9; object-fit: cover;">
+                                    </div>
+                                    <div>
+                                        <a asp-controller="Video" asp-action="Details" asp-route-id="@video.VideoId"
+                                           class="text-decoration-none text-dark fw-bold d-block mb-1 video-title">
+                                            @video.Title
+                                        </a>
+
+                                        <div id="status-container-@video.VideoId">
+                                            @if (video.Visibility.ToLower() == "public")
+                                            {
+                                                <span class="badge rounded-pill bg-success-subtle text-success border border-success-subtle cursor-pointer"
+                                                      onclick="toggleVisibility('@video.VideoId', 'private')" title="Click to make Private">
+                                                    <i class="bi bi-globe2 me-1"></i> Public
+                                                </span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge rounded-pill bg-danger-subtle text-danger border border-danger-subtle cursor-pointer"
+                                                      onclick="toggleVisibility('@video.VideoId', 'public')" title="Click to make Public">
+                                                    <i class="bi bi-lock-fill me-1"></i> Private
+                                                </span>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><i class="bi bi-eye me-1 text-muted"></i> @video.ViewCount.ToString("N0")</td>
+                            <td><i class="bi bi-hand-thumbs-up me-1 text-muted"></i> @video.LikeCount.ToString("N0")</td>
+                            <td class="text-muted">@video.CreatedAt.ToString("MMM dd, yyyy")</td>
+                            <td class="text-end pe-4">
+                                <div class="btn-group">
+                                    <a asp-controller="Video" asp-action="Details" asp-route-id="@video.VideoId" class="btn btn-outline-secondary btn-sm" title="View"><i class="bi bi-eye"></i></a>
+                                    <a asp-controller="Video" asp-action="Edit" asp-route-id="@video.VideoId" class="btn btn-outline-info btn-sm" title="Edit"><i class="bi bi-pencil"></i></a>
+                                    <form asp-controller="Video" asp-action="Delete" asp-route-id="@video.VideoId" method="post" onsubmit="return confirm('Delete this video permanently?');" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash"></i></button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .table th {
+        font-weight: 600;
+        color: #606060;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+    }
+
+    .btn-group .btn {
+        padding: 0.4rem 0.7rem;
+    }
+
+    .cursor-pointer {
+        cursor: pointer !important;
+        transition: opacity 0.2s;
+    }
+
+        .cursor-pointer:hover {
+            opacity: 0.8;
+        }
+</style>
+
+<script>
+    document.getElementById('dashboardSearch').addEventListener('keyup', function() {
+        let filter = this.value.toLowerCase();
+        let rows = document.querySelectorAll('#videoTable tbody tr');
+
+        rows.forEach(row => {
+            let titleElement = row.querySelector('.video-title');
+            if (titleElement) {
+                let text = titleElement.innerText || titleElement.textContent;
+                row.style.display = text.toLowerCase().includes(filter) ? "" : "none";
+            }
+        });
+    });
+
+    async function toggleVisibility(videoId, newStatus) {
+        try {
+            const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value;
+
+            const response = await fetch('/Video/UpdateVisibility', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': token
+                },
+                body: JSON.stringify({ id: videoId, status: newStatus })
+            });
+
+            if (response.ok) {
+                const container = document.getElementById(`status-container-${videoId}`);
+                if (newStatus === 'public') {
+                    container.innerHTML = `
+                        <span class="badge rounded-pill bg-success-subtle text-success border border-success-subtle cursor-pointer"
+                              onclick="toggleVisibility('${videoId}', 'private')" title="Click to make Private">
+                            <i class="bi bi-globe2 me-1"></i> Public
+                        </span>`;
+                } else {
+                    container.innerHTML = `
+                        <span class="badge rounded-pill bg-danger-subtle text-danger border border-danger-subtle cursor-pointer"
+                              onclick="toggleVisibility('${videoId}', 'public')" title="Click to make Public">
+                            <i class="bi bi-lock-fill me-1"></i> Private
+                        </span>`;
+                }
+            } else {
+                alert("Server error while updating status.");
+            }
+        } catch (error) {
+            console.error("Error:", error);
+            alert("Connection error.");
+        }
+    }
+</script>

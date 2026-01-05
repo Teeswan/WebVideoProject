@@ -1,0 +1,16 @@
+﻿@model Youtube_Entertainment_Project.DTOs.TagDto
+
+@{
+    ViewData["Title"] = "Tag Details";
+}
+
+<h1>Tag Details</h1>
+
+<div>
+    <h4>@Model.Text</h4>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.TagId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</p>

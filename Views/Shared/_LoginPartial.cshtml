@@ -1,0 +1,138 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Youtube_Entertainment_Project.Data.Entity
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+<style>
+    <text >
+    /* Dropdown hover animation */
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        animation: fadeIn 0.2s ease-in-out;
+    }
+
+    /* Keyframes for dropdown fade-in */
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Profile picture */
+    .navbar-profile-pic {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 8px;
+        transition: transform 0.2s;
+    }
+
+        .navbar-profile-pic:hover {
+            transform: scale(1.1);
+        }
+
+    /* Upload video button */
+    .upload-video-btn {
+        font-size: 1.2rem;
+        margin-right: 10px;
+        color: #000;
+        cursor: pointer;
+        transition: color 0.2s;
+        padding-top: 8px; /* Alignment fix */
+    }
+
+        .upload-video-btn:hover {
+            color: #ff0000;
+        }
+
+    </text >
+</style>
+
+
+<ul class="navbar-nav ms-auto align-items-center">
+    @* Added align-items-center for vertical alignment *@
+    @if (SignInManager.IsSignedIn(User))
+    {
+        var currentUser = await UserManager.GetUserAsync(User);
+
+        @* ➡️ FIX: Ensure currentUser is not null before checking roles *@
+        @if (currentUser != null)
+        {
+            bool isAdmin = await UserManager.IsInRoleAsync(currentUser, "Admin");
+            bool isSuperAdmin = await UserManager.IsInRoleAsync(currentUser, "SuperAdmin");
+
+            @* Upload Button (Creator/Admin/SuperAdmin) *@
+            @if (isAdmin || isSuperAdmin)
+            {
+                <li class="nav-item me-2">
+                    <a class="upload-video-btn nav-link" asp-controller="Video" asp-action="Create" title="Upload Video">
+                        <i class="bi bi-camera-video-fill"></i>
+                    </a>
+                </li>
+            }
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button">
+                    @* Display Profile Picture or default avatar *@
+                    @if (!string.IsNullOrEmpty(currentUser.ProfileImagePath))
+                    {
+                        <img src="@currentUser.ProfileImagePath" class="navbar-profile-pic" alt="Profile Picture" />
+                    }
+                    else
+                    {
+                        @* Default Avatar (using initial) *@
+                        <div class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center navbar-profile-pic">
+                            @(currentUser.DisplayName != null && currentUser.DisplayName.Length > 0 ? currentUser.DisplayName[0].ToString().ToUpper() : "?")
+                        </div>
+                    }
+
+                    <span>Hello @currentUser.DisplayName!</span>
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index"><i class="bi bi-person-circle me-2"></i> Manage Account</a></li>
+
+                    @if (isSuperAdmin)
+                    {
+                        <li><a class="dropdown-item text-danger" asp-controller="SuperAdmin" asp-action="Index"><i class="bi bi-shield-fill me-2"></i> Super Admin Panel</a></li>
+                    }
+
+                    @if (isAdmin || isSuperAdmin)
+                    {
+                        <li><a class="dropdown-item text-warning" asp-controller="Admin" asp-action="Index"><i class="bi bi-gear-fill me-2"></i> Creator Dashboard</a></li>
+                    }
+
+                    @if (isAdmin || isSuperAdmin)
+                    {
+                        <li><hr class="dropdown-divider" /></li>
+                    }
+
+                    <li>
+                        <form class="px-3 py-1" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button type="submit" class="btn btn-link p-0 m-0 text-dark w-100 text-start">
+                                <i class="bi bi-box-arrow-right me-2"></i> Logout
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-primary btn-sm ms-2" asp-area="Identity" asp-page="/Account/Login">Sign In</a>
+        </li>
+    }
+</ul>

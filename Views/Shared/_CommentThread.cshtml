@@ -1,0 +1,82 @@
+﻿@model List<Youtube_Entertainment_Project.DTOs.CommentDto>
+@using System.Security.Claims
+
+@foreach (var comment in Model)
+{
+    <div class="comment-box mb-3 p-3 rounded border @(comment.ParentCommentId.HasValue ? "bg-light" : "bg-white shadow-sm")">
+        <div class="d-flex align-items-center mb-2">
+            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center"
+                 style="width:38px;height:38px;font-weight:bold;">
+                @(comment.UserName != null && comment.UserName.Length > 0 ? comment.UserName[0].ToString().ToUpper() : "?")
+            </div>
+
+            <div class="ms-2">
+                <div class="fw-bold">@comment.UserName</div>
+                <small class="text-muted">
+                    <i class="bi bi-clock-fill me-1"></i>
+                    @comment.CreatedAt.ToLocalTime().ToString("g") @* Formatted timestamp *@@* g = General short time *@
+                </small>
+            </div>
+        </div>
+
+        <div class="comment-content mb-2 ps-1">
+            @comment.Content
+        </div>
+
+        @if (User.Identity!.IsAuthenticated)
+        {
+            <button class="btn btn-link p-0 text-primary reply-toggle"
+                    data-target="reply-box-@comment.CommentId"
+                    style="font-size: 0.9rem;">
+                <i class="bi bi-reply-fill"></i> Reply
+            </button>
+
+            <div id="reply-box-@comment.CommentId" class="mt-2 reply-box d-none">
+                <form asp-controller="Video" asp-action="Reply" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <input type="hidden" name="videoId" value="@comment.VideoId" />
+                    <input type="hidden" name="parentCommentId" value="@comment.CommentId" />
+
+                    <textarea name="content"
+                      class="form-control mb-2"
+                      rows="2"
+                      placeholder="Write a reply..."></textarea>
+
+                    <button type="submit" class="btn btn-sm btn-primary">Post Reply</button>
+                    <button type="button"
+                            class="btn btn-sm btn-light ms-2 cancel-reply"
+                            data-target="reply-box-@comment.CommentId">
+                        Cancel
+                    </button>
+                </form>
+            </div>
+        }
+
+        @if (comment.Replies != null && comment.Replies.Any())
+        {
+            <div class="ms-4 mt-3 border-start ps-3">
+                @await Html.PartialAsync("_CommentThread", comment.Replies)
+            </div>
+        }
+    </div>
+}
+
+<style>
+    .comment-box {
+        transition: background-color 0.2s;
+    }
+
+        .comment-box:hover {
+            background-color: #f8f9fa;
+        }
+
+    .reply-box textarea {
+        font-size: 0.9rem;
+    }
+
+    .reply-toggle:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+</style>

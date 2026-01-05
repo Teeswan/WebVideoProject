@@ -1,0 +1,42 @@
+﻿@model Youtube_Entertainment_Project.DTOs.PlaylistDto
+
+@{
+    ViewData["Title"] = "Delete Playlist";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 border-danger">
+        <h1 class="card-title text-center text-danger mb-4">⚠️ Confirm Delete Playlist</h1>
+        <hr />
+
+        <div class="alert alert-warning text-center fw-bold">
+            <h3>Are you sure you want to delete the playlist <strong>@Model.Title</strong>?</h3>
+            <p>All references to this playlist will be removed.</p>
+        </div>
+
+        <dl class="row mt-4">
+            <dt class="col-sm-3">Playlist Title:</dt>
+            <dd class="col-sm-9">@Model.Title</dd>
+
+            <dt class="col-sm-3">Owner User ID:</dt>
+            <dd class="col-sm-9 text-muted">@Model.OwnerUserId</dd>
+
+            <dt class="col-sm-3">Visibility:</dt>
+            <dd class="col-sm-9">
+                <span class="badge @(Model.IsPublic ? "bg-success" : "bg-danger")">
+                    @(Model.IsPublic ? "Public" : "Private")
+                </span>
+            </dd>
+        </dl>
+
+        <div class="mt-4 text-center">
+            <form asp-action="DeleteConfirmed" method="post" class="d-inline">
+                <input type="hidden" asp-for="PlaylistId" />
+                <button type="submit" class="btn btn-danger btn-lg me-2">
+                    <i class="bi bi-trash-fill"></i> Confirm Delete
+                </button>
+            </form>
+            <a asp-action="Details" asp-route-id="@Model.PlaylistId" class="btn btn-secondary btn-lg">Cancel</a>
+        </div>
+    </div>
+</div>

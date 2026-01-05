@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Youtube_Entertainment_Project.DTOs.TagDto>
+
+@{
+    ViewData["Title"] = "Tags";
+}
+
+<h1>Tags</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Tag</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Text</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tag in Model)
+        {
+            <tr>
+                <td>@tag.Text</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@tag.TagId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@tag.TagId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@tag.TagId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,860 @@
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\appsettings.Development.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\appsettings.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.staticwebassets.runtime.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.staticwebassets.endpoints.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.exe
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.deps.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.runtimeconfig.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.pdb
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\AutoMapper.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Azure.Core.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Azure.Identity.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Humanizer.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Build.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Common.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Configuration.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Frameworks.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.LibraryModel.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Packaging.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.ProjectModel.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Protocol.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Versioning.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.ClientModel.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.CodeDom.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\af\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ar\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\az\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\bg\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\da\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\el\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fa\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\he\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\hr\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\hu\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\hy\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\id\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\is\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ku\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\lv\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\mt\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\nb\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\nl\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ro\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\sk\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\sl\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\sr\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\sv\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\uk\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\vi\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.csproj.AssemblyReference.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.AssemblyInfoInputs.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.AssemblyInfo.cs
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.csproj.CoreCompileInputs.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.MvcApplicationPartsAssemblyInfo.cs
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.MvcApplicationPartsAssemblyInfo.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.RazorAssemblyInfo.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.RazorAssemblyInfo.cs
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\scopedcss\bundle\Youtube Entertainment Project.styles.css
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\scopedcss\projectbundle\Youtube Entertainment Project.bundle.scp.css
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\wr3tlice65-{0}-0odrploeno-0odrploeno.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\1r3ebg36oq-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\qa112ax3p9-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\vbf72ikppw-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\v8iv24e5t0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\su1e64uakp-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\aufih6pgim-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\az56aa14f6-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\zfixeuzqka-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\1zs4a7621z-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\y9u6aidhb7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\pyerwvwhbr-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\uxquujllb4-{0}-ub07r2b239-ub07r2b239.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\sxscrq9mhu-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\7cud0v7rne-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\8dz7hamg7r-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\2qynit1smt-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\wmgx44g2c4-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\crqa5g2xhs-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\mmc6wcmtgl-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\6qi2dsksvo-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ojv2mr2nsz-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\neb3c2bkba-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\mpmkq47rli-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\tf9ga0qke3-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\yozx2nqoj5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\lguu14r9le-{0}-06098lyss8-06098lyss8.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\7in9gn40qw-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\whnk3ga7wb-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\wyc949on51-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\kcbcrnk9jv-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\tghdnxxd17-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\g091b1bpvw-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\99m0sqwhn0-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\lr1906ikf6-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\36b4j0a6lf-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\itz902shjn-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\pd1dbnpena-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\av684doicc-{0}-493y06b0oq-493y06b0oq.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\7idhlovpzk-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\e0jnmf10d2-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\zj7oenfckc-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\3w9nf1vfkm-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\v7qi07dljw-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ufp29fdiik-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\tcomighqj6-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\rlykquiw93-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\cohp3qqnoq-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\28wfrhgiqh-{0}-47otxtyo56-47otxtyo56.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\sa99b3r9p8-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\subfduke8i-{0}-356vix0kms-356vix0kms.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\z6bnd9h7tk-{0}-83jwlth58m-83jwlth58m.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\j4a46zd58a-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\dz2wxtu2cq-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\rs010d6fp0-{0}-ag7o75518u-ag7o75518u.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\sb1b35x3i6-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\r9fyg5fsap-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\yji35sde5g-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\9e4t2dx3d6-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\lyf2rw0qgf-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\12y9yq5pic-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\gun66xwne1-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\c6k73izo0i-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\f81jjcl1zp-{0}-i9jjrzsrv5-i9jjrzsrv5.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\compressed\sprohgmq3n-{0}-i9jjrzsrv5-i9jjrzsrv5.gz
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.build.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.development.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\swae.build.ex.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube .0FB9E89E.Up2Date
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\refint\Youtube Entertainment Project.dll
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.pdb
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.genruntimeconfig.cache
+D:\Riso_3\ASP Web-Development\Project\Youtube Entertainment Project\obj\Debug\net9.0\ref\Youtube Entertainment Project.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\appsettings.Development.json
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\appsettings.json
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.staticwebassets.runtime.json
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.staticwebassets.endpoints.json
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.exe
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.deps.json
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.runtimeconfig.json
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Youtube Entertainment Project.pdb
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\AutoMapper.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Azure.Core.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Azure.Identity.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Humanizer.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Common.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.ClientModel.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.CodeDom.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Riso_3\Youtube Entertainment Project\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.csproj.AssemblyReference.cache
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.AssemblyInfoInputs.cache
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.AssemblyInfo.cs
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.csproj.CoreCompileInputs.cache
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.MvcApplicationPartsAssemblyInfo.cs
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.RazorAssemblyInfo.cache
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.RazorAssemblyInfo.cs
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\scopedcss\bundle\Youtube Entertainment Project.styles.css
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\scopedcss\projectbundle\Youtube Entertainment Project.bundle.scp.css
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\amvxd4rs8h-0odrploeno.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\j9jqcjvqjb-b9sayid5wm.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\bz6he3ycmr-61n19gt1b8.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\gowmwikwu4-xtxxf3hu2r.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\48g1vq10t2-bqjiyaj88i.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\r6p9egsq9o-c2jlpeoesf.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\irobgjivbp-erw9l3u2r3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\eh3i0f5w9t-aexeepp0ev.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\mk2bk9ff98-d7shbmvgxk.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\37j8y9ecri-ausgxo2sd3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\u3gy3j24hk-k8d9w2qqmf.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\94r9193gys-cosvhxvwiu.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\plnpjvput8-ub07r2b239.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\5hkxd4rr9i-fvhpjtyr6v.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\3kev6ggv4q-b7pk76d08c.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\5cfq350yy8-fsbi9cje9m.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\2jy4iaj8e0-rzd6atqjts.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\nth5scmkdg-ee0r1s7dh0.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\6el4tav4n8-dxx9fxp4il.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\b2pu9mggyu-jd9uben2k1.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\qid26wjhhh-khv3u5hwcm.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\1wmyq2zo8w-r4e9w2rdcm.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\zoholupn2a-lcd1t2u6c8.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\2jx64vcy4w-c2oey78nd0.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\8byhmmb1xu-tdbxkamptv.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\f47btjli6y-j5mq2jizvt.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\q9tqc75aab-06098lyss8.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\nuacah2rig-nvvlpmu67g.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\a3xzx1xcxr-s35ty4nyc5.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\1fnr96uz0o-pj5nd1wqec.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\v29wjhlade-46ein0sx1k.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ywyoa7y6jt-v0zj4ognzu.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\gf8gxo769t-37tfw0ft22.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ytp2lly016-hrwsygsryq.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ovr9x8m5ys-pk9g2wxc8p.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\bqn5kf7g9k-ft3s53vfgj.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\q4421jjyl7-6cfz1n2cew.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\0b3myzmmj5-6pdc2jztkx.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\qaj1khhyjp-493y06b0oq.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\27lqb0wwo7-iovd86k7lj.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\c8pqo7bs2g-vr1egmr9el.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\e1zq6ydyh7-kbrnm935zg.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\gy70ou9up8-jj8uyg4cgr.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\6d944ol3zn-y7v9cxd14o.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\s70f4gbze5-notf2xhcfb.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\cfe8dnhqr5-h1s4sie4z3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\2r154etc0l-63fj8s7r0e.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\d6253giu40-0j3bgjxly4.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\u7qd1df60k-47otxtyo56.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\otzv2esljj-4v8eqarkd7.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\wnni2u159c-356vix0kms.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\xt7fqsv5bw-83jwlth58m.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\dpdgiz5y4i-mrlpezrjn3.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\fk85k1ovh8-lzl9nlhx6b.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\ix06ser7xt-ag7o75518u.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\7503kvnvdi-x0q3zqp4vz.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\m3jvyrb8ea-0i3buxo5is.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\a9aqwxova9-o1o13a6vjx.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\wsep1k5w5z-ttgo8qnofa.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\9uxndzvia1-2z0ns9nrw6.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\h9pxq6gxmx-muycvpuwrr.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\08ml81md8y-87fc7y1x7t.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\lnpzewdyop-mlv21k5csn.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\y649ftzohr-cjglwi3rzj.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\compressed\at0hqmmabc-cjglwi3rzj.gz
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.build.json
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.development.json
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube .0FB9E89E.Up2Date
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.dll
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\refint\Youtube Entertainment Project.dll
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.pdb
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.genruntimeconfig.cache
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\ref\Youtube Entertainment Project.dll

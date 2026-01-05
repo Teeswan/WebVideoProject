@@ -1,0 +1,41 @@
+﻿@model List<Youtube_Entertainment_Project.DTOs.SubscriptionDto>
+
+@{
+    ViewData["Title"] = "My Subscribed Channels";
+}
+
+<h1>My Subscribed Channels</h1>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p>You are not currently subscribed to any channels.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Channel Name</th>
+                <th>Subscribed At</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var sub in Model)
+            {
+                <tr id="row-@sub.ChannelOwnerUserId">
+                    @* This line now works because ChannelName is populated in the Controller *@
+                    <td><a href="/Channel/Details/@sub.ChannelOwnerUserId">@sub.ChannelName</a></td>
+                    <td>@sub.SubscribedAt.ToShortDateString()</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger unsubscribe-btn"
+                                data-channel-id="@sub.ChannelOwnerUserId"
+                                data-channel-name="@sub.ChannelName">
+                            Unsubscribe
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
