@@ -858,3 +858,4 @@ C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\refint\Youtube Entertai
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.pdb
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.genruntimeconfig.cache
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\ref\Youtube Entertainment Project.dll
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.sourcelink.json

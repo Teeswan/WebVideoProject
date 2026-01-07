@@ -1,0 +1,15 @@
+# Ignore Visual Studio temporary files
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+# Ignore database files (if you don't want them on Git)
+*.mdf
+*.ldf
+*.db
+
+# Ignore OS files
+Thumbs.db
+.DS_Store

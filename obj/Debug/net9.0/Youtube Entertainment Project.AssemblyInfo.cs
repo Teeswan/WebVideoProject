@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Youtube Entertainment Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfde01246c58951cea4f518e29ec4be0054dd09a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Youtube Entertainment Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Youtube Entertainment Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
