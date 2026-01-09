@@ -714,6 +714,7 @@ C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment P
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.MvcApplicationPartsAssemblyInfo.cache
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.RazorAssemblyInfo.cache
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.RazorAssemblyInfo.cs
+C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.sourcelink.json
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -858,4 +859,3 @@ C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\refint\Youtube Entertai
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.pdb
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.genruntimeconfig.cache
 C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\ref\Youtube Entertainment Project.dll
-C:\Riso_3\Youtube Entertainment Project\obj\Debug\net9.0\Youtube Entertainment Project.sourcelink.json

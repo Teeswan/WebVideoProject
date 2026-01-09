@@ -20,6 +20,7 @@ namespace Youtube_Entertainment_Project.Repositories.Implementations
                 .Include(c => c.User)
                 .Include(c => c.Video)
                 .Include(c => c.Replies)
+                    .ThenInclude(r => r.User)
                 .ToListAsync();
         }
 
@@ -29,6 +30,7 @@ namespace Youtube_Entertainment_Project.Repositories.Implementations
                 .Include(c => c.User)
                 .Include(c => c.Video)
                 .Include(c => c.Replies)
+                    .ThenInclude(r => r.User)
                 .FirstOrDefaultAsync(c => c.CommentId == id);
         }
 

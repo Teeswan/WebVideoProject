@@ -10,6 +10,7 @@
         public DateTime CreatedAt { get; set; }
         public Guid? ParentCommentId { get; set; }
         public List<CommentDto>? Replies { get; set; }
+        public string? UserProfilePictureUrl { get; set; } 
 
     }
 

@@ -100,6 +100,7 @@ public class VideoController : Controller
                 CreatedAt = c.CreatedAt,
                 UserId = c.UserId,
                 UserName = commentUser?.UserName ?? "Unknown",
+                UserProfilePictureUrl = commentUser?.ProfileImagePath,
                 ParentCommentId = c.ParentCommentId,
                 Replies = new List<CommentDto>()
             });

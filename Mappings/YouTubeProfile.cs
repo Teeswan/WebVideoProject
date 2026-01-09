@@ -115,7 +115,17 @@ namespace Youtube_Entertainment_Project.Mappings
                             : "/images/default-thumbnail.jpg"));
 
             CreateMap<Thumbnail, ThumbnailDto>().ReverseMap();
-            CreateMap<Comment, CommentDto>().ReverseMap();
+
+            CreateMap<Comment, CommentDto>()
+                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src =>
+                    src.User != null ? src.User.UserName : "Anonymous"))
+                .ForMember(dest => dest.UserProfilePictureUrl, opt => opt.MapFrom(src =>
+                    src.User != null ? src.User.ProfileImagePath : null)) 
+                .ForMember(dest => dest.Replies, opt => opt.MapFrom(src => src.Replies));
+
+            CreateMap<CommentDto, Comment>()
+                .ForMember(dest => dest.User, opt => opt.Ignore())
+                .ForMember(dest => dest.Video, opt => opt.Ignore());
 
             CreateMap<Subscription, SubscriptionDto>()
                 .ForMember(dest => dest.ChannelName, opt => opt.Ignore())

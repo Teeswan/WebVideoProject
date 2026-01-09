@@ -20,6 +20,8 @@ namespace Youtube_Entertainment_Project.Services.Implementations
         public async Task<List<CommentDto>> GetAllCommentsAsync()
         {
             var comments = await _commentRepository.GetAllAsync();
+            var debugPath = comments.FirstOrDefault()?.User?.ProfileImagePath;
+
             return _mapper.Map<List<CommentDto>>(comments);
         }
 

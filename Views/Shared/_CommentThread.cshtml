@@ -5,16 +5,30 @@
 {
     <div class="comment-box mb-3 p-3 rounded border @(comment.ParentCommentId.HasValue ? "bg-light" : "bg-white shadow-sm")">
         <div class="d-flex align-items-center mb-2">
-            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center"
-                 style="width:38px;height:38px;font-weight:bold;">
-                @(comment.UserName != null && comment.UserName.Length > 0 ? comment.UserName[0].ToString().ToUpper() : "?")
+
+            <div class="flex-shrink-0">
+                @{
+                    var profilePic = string.IsNullOrEmpty(comment.UserProfilePictureUrl)
+                    ? "/Images/user_avatar_def.jpg"  
+                    : comment.UserProfilePictureUrl.Replace("\\", "/");
+
+                    if (!profilePic.StartsWith("/") && !profilePic.StartsWith("http"))
+                    {
+                        profilePic = "/" + profilePic;
+                    }
+                }
+
+                <img src="@profilePic"
+                     class="rounded-circle shadow-sm"
+                     style="width: 38px; height: 38px; object-fit: cover; border: 1px solid #dee2e6;"
+                     alt="Profile Picture">
             </div>
 
             <div class="ms-2">
                 <div class="fw-bold">@comment.UserName</div>
                 <small class="text-muted">
                     <i class="bi bi-clock-fill me-1"></i>
-                    @comment.CreatedAt.ToLocalTime().ToString("g") @* Formatted timestamp *@@* g = General short time *@
+                    @comment.CreatedAt.ToLocalTime().ToString("g")
                 </small>
             </div>
         </div>
@@ -61,22 +75,3 @@
         }
     </div>
 }
-
-<style>
-    .comment-box {
-        transition: background-color 0.2s;
-    }
-
-        .comment-box:hover {
-            background-color: #f8f9fa;
-        }
-
-    .reply-box textarea {
-        font-size: 0.9rem;
-    }
-
-    .reply-toggle:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
-</style>

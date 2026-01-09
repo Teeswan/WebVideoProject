@@ -74,6 +74,7 @@ wwwroot\thumbnails\e4acc8e1-6e4f-4814-a879-efeaad1b7fe4.jpg
 wwwroot\thumbnails\e59770e3-475b-4706-a518-dc8067427ea6.jpg
 wwwroot\thumbnails\ffcb194a-aed4-462e-9dca-ae3289e88088.png
 wwwroot\uploads\users\0923d77f-b216-43c7-9e90-f728fa2a3332.png
+wwwroot\uploads\users\20734d90-39f8-4779-80c6-7794d27f34fe.png
 wwwroot\uploads\users\29d58ab8-6a55-4934-b17f-4c6c54673ab2.png
 wwwroot\uploads\users\6cee8df2-4fad-48ff-8728-eba10a0b058c.png
 wwwroot\uploads\users\71cab2d8-c4f3-4efb-96f0-b165ec25f7ec.jpg
@@ -81,7 +82,6 @@ wwwroot\uploads\users\71e5bcc0-3183-4bb8-be77-72d1b800807e.jpg
 wwwroot\uploads\users\778a018a-1790-441e-ba02-40500f1df12c.png
 wwwroot\uploads\users\7d438086-b648-47f3-87fd-6217bc70b616.png
 wwwroot\uploads\users\a47b9267-f2c9-4cb6-b13d-9184091634f8.jpg
-wwwroot\uploads\users\c0e0c164-cf15-48f5-8e1e-6cd4711d5243.jpg
 wwwroot\videos\11f7d256-37a4-4fc6-849b-630ba2a8576a.mp4
 wwwroot\videos\33d1dd73-d3cf-4458-b4be-888dbc137df6.mp4
 wwwroot\videos\33e801e4-3e19-4fcf-b940-0c264a7e02cd.mp4
@@ -90,6 +90,7 @@ wwwroot\videos\38467064-1a58-4ec2-b817-a68a0d29fe21.mp4
 wwwroot\videos\3c722e64-b6e6-41f0-8b67-9fbb7d98b675.mp4
 wwwroot\videos\51e6379d-7c94-46b9-8deb-66bfc4fb9e5c.mp4
 wwwroot\videos\6759941a-528c-4f5d-85de-b6903372d362.mp4
+wwwroot\videos\7019f776-8e41-4973-9173-bfeb4714f298.mp4
 wwwroot\videos\82f8fc17-0104-44b4-b142-3b57a670ae4f.mp4
 wwwroot\videos\8f507269-723f-49c7-affc-260d148f368c.mp4
 wwwroot\videos\9513f8c4-41bd-4452-87bb-c1d5adc351e1.mp4
